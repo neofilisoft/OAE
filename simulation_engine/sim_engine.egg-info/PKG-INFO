@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: repro-engine
+Version: 0.1.0
+Summary: A Python-first digital lineage, genetics, identity, AI, and simulation engine
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic>=2.8
+Requires-Dist: numpy>=1.26
+Requires-Dist: networkx>=3.0
+Requires-Dist: scikit-learn>=1.4
+Requires-Dist: pandas>=2.0
+
+# repro-engine
+
+A Python-first engine for:
+- entity modeling
+- genome profiles and inheritance
+- bloodline and lineage logic
+- digital identity and cryptographic verification
+- AI-assisted recommendation and anomaly detection
+- event-driven simulation
+
+## Quick start
+
+```bash
+cd repro_engine
+python -m pip install -e .
+python demo.py
+pytest -q
+```
